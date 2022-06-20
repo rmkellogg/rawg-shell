@@ -33,6 +33,20 @@ Launch command prompt and change directory to target with JAR file.
 java -jar rawg-shell.jar
 ```
 
+## Commands
+
+**game describe** {Title or ID}
+
+Retrieve full game information based on RAWG ID or title.
+
+**game export** -i {input-filename} -o {output-filename}
+
+Retrieve game information on multiple files.  The input-file should have one game title per line.  The output-filename will contain results in comma-seperated-value format.
+
+**game search** {query}
+
+Search for games using full query syntax.  Results shown on console.
+
 ## Core Technology Stack
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=java&logoColor=white)
