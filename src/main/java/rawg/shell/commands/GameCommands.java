@@ -31,7 +31,7 @@ public class GameCommands {
 	@Autowired
 	private GameService service;
 
-	@ShellMethod(key = "game describe", value = "Retrieve game information")
+	@ShellMethod(key = "game describe", value = "Retrieve full game information based on RAWG ID or title.")
 	public void describe(@ShellOption(help = "ID", value = "-id") String id) {
 		Optional<Game> gameResult = service.describe(id);
 		if (gameResult.isPresent()) {
@@ -62,7 +62,7 @@ public class GameCommands {
 		}
 	}
 
-	@ShellMethod(key = "game export", value = "Retrieve game information")
+	@ShellMethod(key = "game export", value = "Retrieve game information on multiple titles.")
 	public void export(@ShellOption(help = "Input Filename", value = "-input") String inputFileName,
 			                 @ShellOption(help = "Output Filename", value = "-output") String outputFileName) 
 	throws Exception {

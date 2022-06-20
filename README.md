@@ -4,7 +4,7 @@
 
 Command Line interface to the [RAWG Video Games Database API](https://rawg.io/apidocs).
 
-## Installation and Configuration 
+## Installation and Configuration
 
 **This project requires that you have an API key obtained from [RAWG](https://rawg.io/apidocs).  Once ontained, set an OS Environment variable RAWG_API_KEY with the value.  If missing an exception will be thrown and the process will terminate.**
 
@@ -41,7 +41,7 @@ Retrieve full game information based on RAWG ID or title.
 
 **game export** -i {input-filename} -o {output-filename}
 
-Retrieve game information on multiple files.  The input-file should have one game title per line.  The output-filename will contain results in comma-seperated-value format.
+Retrieve game information on multiple titles.  The input-file should have one game title per line.  The output-filename will contain results in comma-seperated-value format.
 
 **game search** {query}
 
