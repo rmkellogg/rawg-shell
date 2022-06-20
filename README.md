@@ -112,20 +112,7 @@ mvnw clean package -DskipTests=true
 
 The target folder will contain [Javadocs](https://www.baeldung.com/javadoc), a Zip file with all source code and the executable JAR file.
 
-**This project requires that you have an API key obtained from [RAWG](https://rawg.io/apidocs).  Once ontained, set an OS Environment variable RAWG_API_KEY with the value.  If missing an exception will be thrown and the process will terminate.**
-
-### API Key Configuration
-
-Linux
-```
-export RAWG_API_KEY={yourapikey}
-```
-
-Windows
-```
-SET RAWG_API_KEY={yourapikey}
-```
-or using the Windows Advanced System Settings -> Environments Variables interface.
+**This project requires that you have an API key obtained from [RAWG](https://rawg.io/apidocs).** Follow the instructions above to configure your environment.
 
 ### Running executable jar locally
 
