@@ -1,5 +1,5 @@
 # rawg-shell
-[![Build Status](https://github.com/rmkellogg/rawg-shell/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/rmkellogg/rawg-shell/actions/workflows/maven.yml)
+[![CI/CD](https://github.com/rmkellogg/rawg-shell/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/rmkellogg/rawg-shell/actions/workflows/build.yml)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Command Line interface to the [RAWG Video Games Database API](https://rawg.io/apidocs).
