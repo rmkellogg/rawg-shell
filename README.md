@@ -4,6 +4,34 @@
 
 Command Line interface to the [RAWG Video Games Database API](https://rawg.io/apidocs).
 
+## Installation and Configuration 
+
+**This project requires that you have an API key obtained from [RAWG](https://rawg.io/apidocs).  Once ontained, set an OS Environment variable RAWG_API_KEY with the value.  If missing an exception will be thrown and the process will terminate.**
+
+### API Key Configuration
+
+Linux
+```
+export RAWG_API_KEY={yourapikey}
+```
+
+Windows
+```
+SET RAWG_API_KEY={yourapikey}
+```
+or using the Windows Advanced System Settings -> Environments Variables interface.
+
+### Download latest release
+
+Navigate to the following [Releases Page](https://github.com/rmkellogg/rawg-shell/releases/latest).  Download the latest **rawg-shell.jar** file to your computer.
+
+### Running executable jar locally
+
+Launch command prompt and change directory to target with JAR file.
+
+```
+java -jar rawg-shell.jar
+```
 
 ## Core Technology Stack
 
