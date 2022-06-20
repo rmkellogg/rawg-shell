@@ -81,7 +81,7 @@ Be sure that your `JAVA_HOME` environment variable points to the `jdk-11` folder
 ### Check out sources
 
 ```
-git clone https://github.com/rmkellogg/rawd-shell.git
+git clone https://github.com/rmkellogg/rawg-shell.git
 ```
 
 ### Compile and test; build all jars, distribution zips, and docs
