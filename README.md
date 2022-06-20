@@ -6,9 +6,13 @@ Command Line interface to the [RAWG Video Games Database API](https://rawg.io/ap
 
 ## Installation and Configuration
 
-**This project requires that you have an API key obtained from [RAWG](https://rawg.io/apidocs).  Once ontained, set an OS Environment variable RAWG_API_KEY with the value.  If missing an exception will be thrown and the process will terminate.**
+### Prerequisites
+* [JDK 11 or higher](https://www.oracle.com/technetwork/java/javase/downloads)
+* RAWG API key obtained from [RAWG](https://rawg.io/apidocs).
 
 ### API Key Configuration
+
+Once ontained, set an OS Environment variable RAWG_API_KEY with the value.  If missing an exception will be thrown and the process will terminate.
 
 Linux
 ```
