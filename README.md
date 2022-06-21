@@ -7,7 +7,7 @@ Command Line interface to the [RAWG Video Games Database API](https://rawg.io/ap
 ## Installation and Configuration
 
 ### Prerequisites
-* [JDK 11 or higher](https://www.oracle.com/technetwork/java/javase/downloads)
+* [Java Runtime Environment (JRE) or Java Development Kit (JDK) v11 or higher](https://www.oracle.com/technetwork/java/javase/downloads)
 * RAWG API key obtained from [RAWG](https://rawg.io/apidocs).
 
 ### API Key Configuration
