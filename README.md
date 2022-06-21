@@ -14,16 +14,17 @@ Command Line interface to the [RAWG Video Games Database API](https://rawg.io/ap
 
 Once ontained, set an OS Environment variable RAWG_API_KEY with the value.  If missing an exception will be thrown and the process will terminate.
 
-Linux
+For Windows 
+
+Use  the [Windows Advanced System Settings -> Environments Variables](https://docs.oracle.com/en/database/oracle/machine-learning/oml4r/1.5.1/oread/creating-and-modifying-environment-variables-on-windows.html#GUID-DD6F9982-60D5-48F6-8270-A27EC53807D0) interface.
+
+For Linux
+
+Add the following to your startup scripts:
+
 ```
 export RAWG_API_KEY={yourapikey}
 ```
-
-Windows
-```
-SET RAWG_API_KEY={yourapikey}
-```
-or using the Windows Advanced System Settings -> Environments Variables interface.
 
 ### Download latest release
 
